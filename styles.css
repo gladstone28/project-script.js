@@ -22,21 +22,11 @@ main {
     align-items: center;
 }
 
-#input-section, #output-section {
+#game-section, #output-section {
     width: 100%;
     max-width: 600px;
     margin-bottom: 1em;
-}
-
-label {
-    display: block;
-    margin-bottom: 0.5em;
-}
-
-textarea {
-    width: 100%;
-    padding: 0.5em;
-    font-size: 1em;
+    text-align: center;
 }
 
 button {
@@ -53,9 +43,10 @@ button:hover {
     background-color: #45a049;
 }
 
-#formatted-wisdom {
+#fortune-output {
     margin-top: 1em;
     padding: 1em;
     border: 1px solid #ddd;
     background-color: #f9f9f9;
+    white-space: pre-wrap;
 }
