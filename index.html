@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisdom Formatter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Personal Wisdom Formatter</h1>
+    </header>
+    <main>
+        <section id="input-section">
+            <label for="wisdom-input">Enter your wisdom:</label>
+            <textarea id="wisdom-input" rows="4" cols="50" aria-label="Enter your wisdom"></textarea>
+            <button id="format-button">Format Wisdom</button>
+        </section>
+        <section id="output-section">
+            <h2>Formatted Wisdom:</h2>
+            <div id="formatted-wisdom" aria-live="polite"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
